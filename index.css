@@ -6,7 +6,7 @@ body{
 
 .navbar{
     width: 100%;
-    background-color: red;
+    
     display: flex;
     align-items: center;
     
@@ -32,8 +32,6 @@ body{
     height: 30px;
     margin-top: 57px;
     margin-right: 298px;
-    background-color: aqua;
-
 }
 
 .navItem{
@@ -42,6 +40,50 @@ body{
     font-size: 20px;
     list-style: none;
 }
+
+.searchButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin-right: 46px;
+    margin-top: 30px;
+}
+
+.cartButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    margin-right: 43px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 179px;
+    height: 60px;
+    background-color: #39DB4A;
+    border-radius: 40px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.contactButton{
+    
+    border: none;
+}
+
 
 .popular-categories{
     width: 100%;
